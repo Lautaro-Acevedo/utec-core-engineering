@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
+pi_value = 3.14159
+is_valid = (2 + 2 == 4)
+
 print("Language: Python")
 print("Version: 3")
-print("Pi approx: 3.14")
-print("Computation valid: True")
+print(f"Pi approx: {pi_value:.2f}")
+print(f"Computation valid: {is_valid}")
