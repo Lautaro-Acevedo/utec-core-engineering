@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 def islower(c):
-    if 'a' <= c <= 'z':
-        return True
-    else:
-        return False
-resultado = islower("a")
-print(resultado)
+    if len(c) == 1:
+        return 97 <= ord(c) <= 122
+    return False
