@@ -11,7 +11,7 @@ def pow(a, b):
     # Se multiplica tantas veces (a) como lo indique el exponente
     for _ in range(exp):
         result *= a
-    
+
     if b < 0:
         return 1 / result
     return result
