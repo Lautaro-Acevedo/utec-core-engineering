@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Módulo que proporciona una función para escribir cadenas de texto en un archivo.
+Módulo que proporciona una función para escribir
+cadenas de texto en un archivo.
 """
 
 
