@@ -9,7 +9,3 @@ def safe_print_division(a, b):
     finally:
         print("Inside result: {}".format(result))
         return result
-
-a=2
-b=0
-safe_print_division(a, b)
