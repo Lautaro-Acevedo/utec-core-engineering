@@ -4,6 +4,7 @@ Módulo 0-square
 Define una clase vacía llamada Square.
 """
 
+
 class Square:
     """ represente un cuadrado."""
     pass
