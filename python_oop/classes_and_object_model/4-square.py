@@ -22,12 +22,12 @@ class Square:
         return size * size
 
     @property
-    def get_size(self):
+    def size(self):
         """Devuelve la cantidad de entradas."""
         return self.__size
 
-    @set_size.setter
-    def set_size(self, size):
+    @size.setter
+    def size(self, size):
         if type(size) is not int:
             raise TypeError("quantity must be an integer")
         if size < 0:
