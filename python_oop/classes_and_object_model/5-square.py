@@ -39,7 +39,9 @@ class Square:
         if self.__size == 0:
             print("")
             return
-
-        # Creamos las filas multiplicando el símbolo por el tamaño y las unimos con '\n'
+        """
+        Creamos las filas multiplicando el 
+        símbolo por el tamaño y las unimos con '\n' 
+        """
         rows = ["#" * self.__size for _ in range(self.__size)]
         print("\n".join(rows))
