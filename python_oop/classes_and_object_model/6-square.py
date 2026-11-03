@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 class Square:
     def __init__(self, size=0, position=(0, 0)):
         """Inicializa un cuadrado con tamaño y posición opcionales."""
