@@ -16,8 +16,7 @@ class Square(Rectangle):
         super().__init__(size, size)
 
     def __str__(self):
-        """
-        Return the print() and str() 
-        representation of the square.
-        """
-        return "[Square] {}/{}".format(self._Rectangle__width, self._Rectangle__height)
+        """Return the print() and str() representation."""
+        w = self._Rectangle__width
+        h = self._Rectangle__height
+        return "[Square] {}/{}".format(w, h)
